@@ -16,7 +16,6 @@ Mielőtt túlterheléses támadás vádja érne:
 - Nyisd meg a bővítmény GitHub oldalát (`https://github.com/netro83/mav-extension`)
 - Kattints a zöld **"Code"** gombra → **Download ZIP**
 - Csomagold ki a ZIP fájlt egy mappába, például: `X:\xxxxxx\mav-extension`
--
 
 ### 2. 🌐 **Nyisd meg a Chrome bővítménykezelőt**
 
@@ -28,14 +27,12 @@ Mielőtt túlterheléses támadás vádja érne:
 
 ### 3. 📂 **Töltsd be a kicsomagolt bővítményt**
 
-![image1](/assets/image3.jpg)
-
 - Kattints a **"Kicsomagolt bővítmény (vagy elemek) betöltése"** (Load unpacked) gombra
 - Válaszd ki azt a mappát, ahova kicsomagoltad a GitHub ZIP tartalmát (pl. `X:\xxxxxx\mav-extension`)
 
 ### 4. 📌 Címsor melletti ikon kihelyezése
 
-![image1](/assets/image4.jpg)
+![image1](/assets/image3.jpg)
 
 - A jobb felső sarokban, a címsor mellett jobbra (ahova a weboldalak címét írod), megjelenik egy puzzle-darab ikon (🧩)
 - Kattints rá, megjelenik az összes aktív bővítmény
@@ -43,6 +40,8 @@ Mielőtt túlterheléses támadás vádja érne:
 - Kattints a mellette lévő **rajzszög ikonra (📌)** → ezzel **kiteheted a címsor mellé**
 
 ### 5. ▶️ A bővítmény használata
+
+![image1](/assets/image4.jpg)
 
 - A bővítmény **akkor aktiválódik**, ha:
 - **rákattintasz a címsor melletti ikonjára (M)**
