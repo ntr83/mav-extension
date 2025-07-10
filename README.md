@@ -7,6 +7,8 @@ Mielőtt túlterheléses támadás vádja érne:
 
 - Nem, nem csinál ez a kiegészítő semmit a MÁV szervereivel 🌐
 
+Hobbiprojekt, tanulás.. stb. Nem kapcsolódom sem a politikához, sem a MÁV-hoz. Az itt megjelent adatokért SEMMI felelőséget nem tudok vállalni, mert nem értek a vonatokhoz. Ha bármi hibás, vagy rossz, akkor tessék jelezni a MÁV vezetője felé, mivel a pontos adatszolgáltatás az ő felelősége, nem az enyém (vagy azoké, akik energiát tettek az elmúlt hetekben a különféle, vonatinfo-pótló projektekbe)
+
 # Telepítés
 
 ### 1. 📦 **Töltsd le a bővítményt a GitHub-ról**

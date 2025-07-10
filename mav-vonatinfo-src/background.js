@@ -9,6 +9,18 @@ chrome.action.onClicked.addListener((tab) => {
         const s = sec % 60;
         return [h, m, s].map((n) => String(n).padStart(2, "0")).join(":");
       };
+      const formatAnotherWTFLazarTime = (timestampInSeconds) => {
+        const now = Math.floor(Date.now() / 1000);
+        const diff = now - timestampInSeconds;
+
+        if (diff < 0) return "lézerjövőben van";
+
+        const h = Math.floor(diff / 3600);
+        const m = Math.floor((diff % 3600) / 60);
+        const s = diff % 60;
+
+        return `${h}h ${m}m`;
+      };
 
       const existing = document.getElementById("rail-slideout");
       if (existing) {
@@ -60,6 +72,11 @@ chrome.action.onClicked.addListener((tab) => {
            <span style="font-weight:bold;"> vonat: ${
              stop.trip.tripShortName
            } - ${stop.trip.tripHeadsign} felé</span><br>
+        ⏱ utolsó adat: ${formatAnotherWTFLazarTime(stop.lastUpdated)} - ${
+              stop.stopRelationship !== null
+                ? stop.stopRelationship.status
+                : "-"
+            }<br>
         ⏱ késés: ${formatLazarTime(delay)}<br>
         ⏱ köv.állomás: ${
           stop.stopRelationship !== null
