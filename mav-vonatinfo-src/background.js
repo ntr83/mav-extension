@@ -4,11 +4,12 @@ chrome.action.onClicked.addListener((tab) => {
     func: () => {
       const formatLazarTime = (sec) => {
         if (sec == null || isNaN(sec)) return "-";
-        const h = Math.floor(sec / 3600);
+        const h = Math.floor(sec / 3600) % 24;
         const m = Math.floor((sec % 3600) / 60);
         const s = sec % 60;
         return [h, m, s].map((n) => String(n).padStart(2, "0")).join(":");
       };
+
       const existing = document.getElementById("rail-slideout");
       if (existing) {
         existing.remove();
